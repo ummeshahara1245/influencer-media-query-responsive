@@ -128,13 +128,6 @@ p{
     width: 56px;
     height: 56px;
   }
-
-
-
-
-/****************** country card ends ****************/
-
-/********************* bottom banner starts ******************/
   .bottom-half-width{
     width:40%;
     margin-top: 5%;
@@ -147,8 +140,7 @@ p{
   }
   .bottom-banner{
     display: flex;
-    /* padding-left: 10%;
-    padding-right: 10%; */
+    
     margin-bottom: 5%;
 
 }
@@ -171,18 +163,7 @@ footer{
     text-align: center;
 
 }
-/* .container{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding:0 30px;
-} */
-/* .bottom-banner img{
-    width: 567px;
-    height: 427px;
 
-} */
-/********************* bottom banner end ******************/
-/********************* footer starts ******************/
 
 .icons .fab{
     align-items: center;
@@ -202,8 +183,7 @@ footer{
 .logo img{
     margin-top: 0;
     margin-bottom: 0;
-   /* height: 250px;
-   width: 250px; */
+   
    margin-left:7%;
 }
 
@@ -224,7 +204,6 @@ margin-right: -195%;
     padding: 0 10px;
   }
   
-  /* Remove extra left and right margins, due to padding */
   .row {margin-top: 5%;
     display: flex;
     justify-content: center;
@@ -258,7 +237,6 @@ margin-right: -195%;
     padding: 16px;
     text-align: center;
     transition: linear .25s all;
-    /* background-color: #f1f1f1; */
   }
   .card:hover{
       background-color:cadetblue;
@@ -269,7 +247,6 @@ margin-right: -195%;
     font-size: 5em;
 
   }
-/********************* footer ends ******************/
 /* mediaquery for mobile */
   @media only screen and (max-width:688px){
  
@@ -287,7 +264,6 @@ margin-right: -195%;
       text-align: center;
       transition: linear .25s all;
   
-      /* background-color: #f1f1f1; */
     }
     .card:hover{
         background-color:rgb(186, 230, 230);
@@ -328,7 +304,6 @@ margin-right: -195%;
         height: 100%;
         margin: 0 auto;
         overflow-x: hidden;
-        /* width: 100%; */
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
@@ -402,10 +377,8 @@ margin-right: -195%;
     .bottom-banner img{
         width: 328px;
         height: 248px;
-        /* margin: 0; */
     }
     .text-2{
-        /* text-align: left; */
         width: 100%;
         overflow-x: hidden;
         height: 100%;
@@ -413,7 +386,6 @@ margin-right: -195%;
   
 
 }
-/* mediaquery for tablet */
 @media only screen and (min-width:688px) and (max-width:992px){
     .seeMore {
         display: flex;
