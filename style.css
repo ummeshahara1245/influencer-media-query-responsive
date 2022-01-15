@@ -66,6 +66,9 @@ header{
     text-align: center;
     margin-top: 5%;
 }
+.fab{
+    font-size: 24px;
+}
 p{
     font-size: 16px;
     color: black;
@@ -258,8 +261,8 @@ margin-right: -195%;
     /* background-color: #f1f1f1; */
   }
   .card:hover{
-      background-color:rgb(186, 230, 230);
-  color: black;
+      background-color:cadetblue;
+  color: white;
 
   }
   .popular h1{
@@ -270,7 +273,11 @@ margin-right: -195%;
 /* mediaquery for mobile */
   @media only screen and (max-width:688px){
  
-
+    .collection{
+        padding: 15px;
+        background-color: #f1f1f1;
+        border-radius: 5px;
+    }
     
     /* Style the counter cards */
     .card {
@@ -326,6 +333,7 @@ margin-right: -195%;
         grid-template-columns: repeat(1,1fr);
     }
     .top-banner img{
+        margin-top: 7%;
         margin-left: 7%;
         width: 329px;
         height: 259.17px;
